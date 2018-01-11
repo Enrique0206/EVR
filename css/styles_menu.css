@@ -1,0 +1,51 @@
+.navbar{
+	border-radius: 0PX;
+	background-color: #1069A3;
+	margin: 0;
+}
+
+.container .navbar-header .navbar-brand {
+	color: #FFFFFF;
+	font-size: 35px;
+	background-color:#1069A3;
+}
+
+.navbar-header .navbar-toggle.collapsed .icon-bar {
+	background-color: #FFFFFF;
+}
+
+.nav.navbar-nav li a {
+	color: #FFFFFF;
+}
+.nav.navbar-nav li a:hover  {
+	background-color: #1069A3;
+	color: #D9AB22;
+}
+
+.dropdown-menu li a {
+	background-color: #1069A3;
+	margin: 0;
+}
+
+.nav.navbar-nav li .items {
+	background-color: rgba(255,255,255,0.00);
+}
+
+.nav.navbar-nav.navbar-right li .items {
+	padding-bottom: 0px;
+	padding-top: 12px;
+	margin-bottom: 0px;
+}
+
+.nav.navbar-nav .dropdown .dropdown-menu {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+
+.row .col-md-4 img {
+	padding-left: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+}

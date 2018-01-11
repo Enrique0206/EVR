@@ -1,0 +1,95 @@
+body {
+    margin: 0;    
+}
+
+
+#logo{
+	background: #ffffff;
+	height: 130px;
+}
+
+#menu{
+    background:#07527E;
+    height: 80px;
+}
+
+#slider {
+	background-image: url(../images/jpg/fresadora.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 910px;
+}
+
+#slider #vacio1 {
+	background-color: rgba(255,255,255,0.00);
+	height: 100px;
+}
+
+#slider .container .row .col-md-4 {
+	font-size: 40px;
+	color: rgba(255,255,255,1.00);
+	text-align: left;
+	background-color: #D9AB22;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+#tit_serv {
+	background: #EFEFEF;
+	color: #EF0932;
+	text-align: center;
+	font-size: 40px;
+	min-height: 30px;
+	padding-top: 15px;
+}
+
+#servicios {
+	background-color: #EFEFEF;
+	min-height: 420px;
+}
+#servicios .container {
+	padding-top: 0px;
+	/*background-color: #FFDA0A;*/
+	background-color:#EFEFEF;
+	margin-top: 15px;
+}
+
+#servicios .container .row .col-md-4 {
+	text-align: center;
+	padding-top: 17px;
+	padding-bottom: 30px;
+}
+
+.col-md-4 .servicio a {
+	color: #08246A;
+	text-decoration:none;
+	transition: 0.5s;
+}
+
+.col-md-4 .servicio a:hover {
+	color: #EF0932;	
+}
+
+.servicio {
+	border-radius: 0px;
+	font-size: 21px;
+	padding-bottom: 20px;
+}
+
+.col-md-4 .imagen .img-responsive {
+	opacity: 1;
+	transition: 1s;	
+}
+
+.col-md-4 .imagen .img-responsive:hover {
+	/*opacity: 0.7;*/
+	filter: grayscale(100%);
+	border: 1px solid #000000;
+}
+
+#pie {
+	min-height: 80px;
+	padding-top: 25px;
+}
