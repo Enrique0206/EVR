@@ -93,3 +93,59 @@ body {
 	min-height: 80px;
 	padding-top: 25px;
 }
+#cont_con {
+	min-height: 700px;
+	background-color: #FFFFFF;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.espacio_cont {
+	height: 130px;
+}
+#cont_con .container {
+	background-color: #EFEFEF;
+	min-height: 500px;
+	background-image: url(../images/jpg/nosotros.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 5px;
+	background-attachment: fixed;
+}
+
+
+
+
+#cont_con .container .row {
+	background-color: rgba(255,255,255,0.8);
+	min-height: 500px;
+}
+
+.container .row .col-md-12 {
+	text-align: left;
+	font-size: 25px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #D9AB22;
+}
+
+
+#cont_con .container .row .col-md-8 {
+	text-align: justify;
+	font-size: 15px;
+	padding-left: 19px;
+	padding-top: 35px;
+}
+
+#cont_con .container .row .col-md-4 {
+	padding-right: 15px;
+	padding-top: 40px;
+}
+
+body hr {
+	height: 1px;
+	background-color:#127ABD;
+	border: none;
+	
+}
