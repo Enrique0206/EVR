@@ -13,6 +13,7 @@ body {
     height: 80px;
 }
 
+/*slider-index*/
 #slider {
 	background-image: url(../images/jpg/fresadora.jpg);
 	background-size: cover;
@@ -35,64 +36,10 @@ body {
 	border-bottom-right-radius: 4px;
 	border-top-right-radius: 4px;
 }
+/*slider-index*/
 
-#tit_serv {
-	background: #EFEFEF;
-	color: #EF0932;
-	text-align: center;
-	font-size: 40px;
-	min-height: 30px;
-	padding-top: 15px;
-}
 
-#servicios {
-	background-color: #EFEFEF;
-	min-height: 420px;
-}
-#servicios .container {
-	padding-top: 0px;
-	/*background-color: #FFDA0A;*/
-	background-color:#EFEFEF;
-	margin-top: 15px;
-}
-
-#servicios .container .row .col-md-4 {
-	text-align: center;
-	padding-top: 17px;
-	padding-bottom: 30px;
-}
-
-.col-md-4 .servicio a {
-	color: #08246A;
-	text-decoration:none;
-	transition: 0.5s;
-}
-
-.col-md-4 .servicio a:hover {
-	color: #EF0932;	
-}
-
-.servicio {
-	border-radius: 0px;
-	font-size: 21px;
-	padding-bottom: 20px;
-}
-
-.col-md-4 .imagen .img-responsive {
-	opacity: 1;
-	transition: 1s;	
-}
-
-.col-md-4 .imagen .img-responsive:hover {
-	/*opacity: 0.7;*/
-	filter: grayscale(100%);
-	border: 1px solid #000000;
-}
-
-#pie {
-	min-height: 80px;
-	padding-top: 25px;
-}
+/*nosotros*/
 #cont_con {
 	min-height: 700px;
 	background-color: #FFFFFF;
@@ -100,10 +47,6 @@ body {
 	padding-right: 0px;
 }
 
-
-.espacio_cont {
-	height: 130px;
-}
 #cont_con .container {
 	background-color: #EFEFEF;
 	min-height: 500px;
@@ -114,38 +57,118 @@ body {
 	background-attachment: fixed;
 }
 
-
-
-
 #cont_con .container .row {
 	background-color: rgba(255,255,255,0.8);
 	min-height: 500px;
+	
 }
 
-.container .row .col-md-12 {
+.container .row .col-md-12 {	
 	text-align: left;
 	font-size: 25px;
 	padding-top: 20px;
 	padding-bottom: 15px;
-	border-bottom: 1px solid #D9AB22;
+	/*border-bottom: 1px solid #D9AB22;*/
+	animation: slidein 2s; animation
 }
-
 
 #cont_con .container .row .col-md-8 {
 	text-align: justify;
 	font-size: 15px;
 	padding-left: 19px;
-	padding-top: 35px;
+	padding-top: 17px;
 }
 
 #cont_con .container .row .col-md-4 {
 	padding-right: 15px;
-	padding-top: 40px;
+	padding-top: 22px;
 }
 
-body hr {
-	height: 1px;
-	background-color:#127ABD;
-	border: none;
+.espacio_cont {
+	height: 130px;
+}
+/*nosotros*/
+
+/*servicios*/
+#cont_serv .container {	
+	text-align: center;	
+	min-height: 400px;
 	
 }
+
+#cont_serv .container .row .col-md-4 {	
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-width: 1px;
+}
+
+.serv_descr {	
+	border: 1px solid rgba(16,105,163,0.30);
+	transition: 0.8s;
+}
+
+.serv_descr:hover {	
+	background:rgba(0,0,0,0.80);
+	color:#FFDA0A;
+}
+
+.serv_descr img {	
+	transition: 0.8s;
+}
+
+.serv_descr:hover img {
+	opacity: 0.7;	
+}
+	/*descripcion del articulo*/
+	.serv_descr span {
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		color:#FFFFFF;
+		display:none;
+		font-size: 20px;	
+	}
+
+	.serv_descr:hover span {
+		display: block;	
+	}
+	/*descripcion del articulo*/
+
+.col-md-4 .serv_descr .img-responsive {
+	margin: 0 auto;
+}
+
+.col-md-4 .serv_descr p {
+	padding-top: 22px;
+	padding-bottom: 15px;
+}
+/*servicios*/
+
+
+/*pie de pagina*/
+body hr {
+	height: 1px;
+	background-color: #127ABD;
+	margin: 0 auto;
+	padding: 0px;
+	border: none;	
+}
+
+#pie {
+	min-height: 80px;
+	padding-top: 25px;
+	text-align: center;
+}
+/*pie de pagina*/
+
+
+@-webkit-keyframes slidein {
+        0%{
+           margin-left: 200%;
+        }
+       
+        100%{
+           margin-left: 0%;
+        }
+    }

@@ -1,3 +1,4 @@
+<link href="../css/estilo.css" rel="stylesheet" type="text/css">
 		<div id="logo" class="container-fluid"></div>
 	
 		<nav class="navbar">
@@ -18,14 +19,15 @@
 					<ul class="nav navbar-nav">
 						<li><a class="items" href="index.php">INICIO</a></li>
 						<li><a class="items" href="nosotros.php">NOSOTROS</a></li>					
-						<li class="dropdown">
-						  <a class="items" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS<span class="caret"></span></a>
+						<li><a class="items" href="servicios.php">SERVICIOS</a></li>					  
+					    <!--<li class="dropdown">
+						  <a class="items" href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS<span class="caret"></span></a>
 						  <ul class="dropdown-menu">
-							<li><a href="#">Servicio 1</a></li>
+							<li><a href="servicios.php">Servicio 1</a></li>
 							<li><a href="#">Servicio 2</a></li>
 							<li><a href="#">Servicio 3</a></li>						
 						  </ul>
-						</li>
+						</li>-->
 						<li><a class="items" href="#">CONTACTO</a></li>
 					  </ul>  
 
