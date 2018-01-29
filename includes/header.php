@@ -28,7 +28,7 @@
 							<li><a href="#">Servicio 3</a></li>						
 						  </ul>
 						</li>-->
-						<li><a class="items" href="contacto.php">CONTACTO</a></li>
+						<li><a class="items" href="contacto.php">CONTACTANOS</a></li>
 					  </ul>  
 
 					  <ul class="nav navbar-nav navbar-right">

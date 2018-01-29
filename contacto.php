@@ -31,7 +31,7 @@
 							<div class="row">								
 								<div class="col-md-10">
 									<!--formulario-->
-									<form>								
+									<form action="contactanos_cod.php" method="post" role="form" enctype="multipart/form-data">								
 										<div class="form-group has-success">
 											<label for="nombre">Nombre</label>
 											<input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
