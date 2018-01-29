@@ -11,11 +11,20 @@
 		
 		<?php include './includes/header.php';?>
 		
+		<div class="container-fluid espacio_cont" ></div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 title"><strong>Servicios</strong></div>
+			</div>		
+		</div>
+		
+		<hr class="container tit">
+		
 		<div id="cont_serv" class="container-fluid">		
-			<div class="container-fluid espacio_cont" ></div>				
+					
 				<div class="container">
-					<div class="row">
-						<div class="col-md-12"><strong>Servicios</strong></div>
+					<div class="row">						
 						<div class="col-md-4">
 							<div class="serv_descr">
 								<img src="images/jpg/img_serv1.jpg" class="img-responsive" style="width: 105%">

@@ -17,7 +17,7 @@
 				<div class="row">
 					<div class="col-md-4"></div>
 					<div class="col-md-4"></div>
-					<div class="col-md-4">EVR Somos Lideres en Peru</div>
+					<div class="col-md-4">EVR agregar algo corto</div>
 				</div>
 			</div>		
 		</div>		

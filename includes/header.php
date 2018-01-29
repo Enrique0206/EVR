@@ -18,7 +18,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li><a class="items" href="index.php">INICIO</a></li>
-						<li><a class="items" href="nosotros.php">NOSOTROS</a></li>					
+						<li><a class="items" href="nosotros.php">CONOCENOS</a></li>					
 						<li><a class="items" href="servicios.php">SERVICIOS</a></li>					  
 					    <!--<li class="dropdown">
 						  <a class="items" href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS<span class="caret"></span></a>
@@ -28,7 +28,7 @@
 							<li><a href="#">Servicio 3</a></li>						
 						  </ul>
 						</li>-->
-						<li><a class="items" href="#">CONTACTO</a></li>
+						<li><a class="items" href="contacto.php">CONTACTO</a></li>
 					  </ul>  
 
 					  <ul class="nav navbar-nav navbar-right">
